@@ -1,7 +1,7 @@
-
-const Main=({image})=>{
+import Man from "../assets/image.png"
+const Main=()=>{
     return(
-        <section className="bg-black text-white">
+        <section className="bg-black text-white h-screen">
          <div className="flex justify-center">
             <div className="text-center py-50">
             <h1 className="font-bold text-3xl py-5">I'm Robert</h1>
@@ -11,7 +11,7 @@ const Main=({image})=>{
             </div>
           </div>
           <div>
-              <img src={image} alt="image" />
+              <img src={Man} alt="image" />
           </div>
           <div className="text-center py-50">
             <h1 className="font-bold text-2xl py-5">Expert in</h1>
